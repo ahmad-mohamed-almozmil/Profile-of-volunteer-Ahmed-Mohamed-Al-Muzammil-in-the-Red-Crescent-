@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطاقة متطوع | أحمد محمد المزمل</title>
+    <style>
+        :root { --red-color: #ed1c24; }
+        body { background-color: #f4f7f6; font-family: 'Arial', sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 15px; }
+        .card { background: white; width: 100%; max-width: 380px; border-radius: 25px; box-shadow: 0 12px 30px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #eee; }
+        .header { display: flex; justify-content: space-around; align-items: center; padding: 15px; background: #fff; border-bottom: 2px solid #f9f9f9; }
+        .logo { width: 42px; height: 42px; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="red" d="M80,50 c0,16.57-13.43,30-30,30 c-16.57,0-30-13.43-30-30 s13.43-30,30-30 c5.5,0,10.63,1.48,15.04,4.06 c-8.58,2.81-14.75,10.9-14.75,20.44 c0,11.83,9.59,21.42,21.42,21.42 c3.14,0,6.11-0.67,8.79-1.89 C79.67,54.67,80,52.37,80,50z"/></svg>'); background-size: contain; background-repeat: no-repeat; }
+        .header-text { font-size: 11px; font-weight: bold; color: #333; text-align: center; line-height: 1.5; }
+        .content { padding: 25px 20px; text-align: center; }
+        .profile-frame { width: 140px; height: 160px; border: 4px solid var(--red-color); border-radius: 18px; margin: 0 auto 20px; overflow: hidden; background: #f0f0f0; box-shadow: 0 5px 15px rgba(237, 28, 36, 0.2); }
+        .profile-frame img { width: 100%; height: 100%; object-fit: cover; }
+        .name { font-size: 24px; font-weight: bold; color: #222; margin-bottom: 20px; }
+        .info-list { text-align: right; background: #fafafa; padding: 15px; border-radius: 15px; border: 1px solid #f0f0f0; }
+        .info-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid #eee; font-size: 16px; }
+        .info-item:last-child { border: none; }
+        .info-item b { color: var(--red-color); }
+        .footer { background: var(--red-color); color: white; padding: 15px; text-align: center; font-weight: bold; font-size: 15px; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header">
+        <div class="logo"></div>
+        <div class="header-text">جمعية الهلال الأحمر المصري<br>جمعية الهلال الأحمر السوداني</div>
+        <div class="logo"></div>
+    </div>
+
+    <div class="content">
+        <div class="profile-frame">
+            <img src="https://i.ibb.co/jZMgFLdd/1000308033.jpg" alt="أحمد محمد المزمل">
+        </div>
+        
+        <div class="name">أحمد محمد المزمل</div>
+
+        <div class="info-list">
+            <div class="info-item"><b>الجنسية:</b> <span>سوداني 🇸🇩</span></div>
+            <div class="info-item"><b>تاريخ الميلاد:</b> <span>10/01/2006</span></div>
+            <div class="info-item"><b>فصيلة الدم:</b> <span>AB+</span></div>
+            <div class="info-item"><b>مكان الإصدار:</b> <span>القاهرة</span></div>
+            <div class="info-item"><b>رقم الكرت:</b> <span>5488-7613</span></div>
+            <div class="info-item"><b>صالحة حتى:</b> <span>07/01/2028</span></div>
+        </div>
+    </div>
+
+    <div class="footer">الإنسانية تجمعنا</div>
+</div>
+
+</body>
+</html>
